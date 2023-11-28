@@ -1,5 +1,5 @@
 #Creating Route Table
-resource "aws_route_table" "route" {
+resource "aws_route_table" "unique_route" {
   vpc_id = aws_vpc.custom.id
 
   route {
