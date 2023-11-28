@@ -1,5 +1,5 @@
 # Allow traffic from the load balancer to the instances
-resource "aws_security_group_rule" "instance_from_lb" {
+resource "aws_security_group_rule" "unique_instance_from_lb" {
   type                     = "ingress"
   from_port                = 80
   to_port                  = 80
