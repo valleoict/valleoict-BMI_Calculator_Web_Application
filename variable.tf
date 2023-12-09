@@ -4,7 +4,7 @@ variable "aws_region" {
 }
 
 variable "keyname" {
-  default     = "jekines_key"
+  default     = "jenkins1"
   description = "Name of AWS key pair"
 }
 
